@@ -9,6 +9,9 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className='list-disc pl-2'>
+                <li>HTML/CSS</li>
+                <li>PHP</li>
+                <li>JAVASCRIPT</li>
                 <li>Node.js</li>
                 <li>Express.js</li>
                 <li>PHPMyAdmin</li>
@@ -16,7 +19,6 @@ const TAB_DATA = [
                 <li>Vue.js</li>
                 <li>Quasar.js</li>
                 <li>React</li>
-                <li>JAVASCRIPT</li>
                 <li>Git</li>
             </ul>
         )
@@ -57,13 +59,15 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About me</h2>
                 <p className='text-base lg:text-lg'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Laborum id dicta quos suscipit nobis, quae natus excepturi 
-                    explicabo totam ipsam officiis laudantium earum pariatur quas 
-                    dolor odit ratione iste culpa. Nulla cum hic aspernatur fugiat 
-                    corrupti necessitatibus cumque eum in?Lorem ipsum dolor sit amet 
-                    consectetur adipisicing elit. Odit ipsum illum reprehenderit quas 
-                    similique laboriosam iure eaque veritatis dolor nemo.
+                    &nbsp;&nbsp;&nbsp;&nbsp;I am a full-stack web developer with a proficiency in JavaScript and moderate expertise in frameworks such as Vue.js and Quasar.js. 
+                    My skill set extends to the backend with Node.js, and I am well-versed in utilizing GitHub for version control. 
+                    Additionally, I have experience with PHP and MySQL, showcasing my versatility in both front-end and back-end technologies.
+                </p>
+                <p className='text-base lg:text-lg'>
+                    &nbsp;&nbsp;&nbsp;&nbsp;Beyond my technical prowess, my interests extend to geek Nippon pop culture and gaming, demonstrating a multifaceted passion. 
+                    My appreciation for Japanese geek culture, encompassing anime, manga, and gaming, adds a unique and personal dimension to my profile. 
+                    With a solid foundation in web development and a keen interest in diverse aspects of technology and entertainment, 
+                    I bring a well-rounded perspective to my work and hobbies.
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
                     <TabButton 

@@ -7,47 +7,56 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
     {
         id:1,
+        title:"Iaiky Portfolio",
+        description:"My portfolio ",
+        image:"/images/projects/my_portfolio.png",
+        tag:["All","Web"],
+        gitUrl:"https://github.com/Iaiky/port-folio.git",
+        previewUrl:"https://port-folio-iaiky.vercel.app"
+    },
+    {
+        id:2,
         title:"Libère toi",
         description:"Platform dedicated to online virtual assistant services  ",
         image:"/images/projects/libere-toi-net.png",
         tag:["All","Web"],
-        gitUrl:"/",
-        previewUrl:"/"
+        gitUrl:"https://github.com/Iaiky/quasar-lib-re-toi.git",
+        previewUrl:"https://libere-toi.net/#/Home"
     },
     {
-        id:2,
+        id:3,
         title:"Libère toi backend server ",
         description:"Authentication and CRUD opérations with express.js & phpMyAdmin",
         image:"/images/projects/libere-toi-back.png",
         tag:["All","Backend"],
-        gitUrl:"/",
-        previewUrl:"/"
-    },
-    {
-        id:3,
-        title:"SHENZHEN LK LOGISTICS",
-        description:"Site web where you can make command of their products",
-        image:"/images/projects/SHENZHEN.png",
-        tag:["All","Web"],
-        gitUrl:"/",
+        gitUrl:"https://github.com/Iaiky/libere_toi_back.git",
         previewUrl:"/"
     },
     {
         id:4,
-        title:"Shenzhen LK logistics backend server",
-        description:"Authentication and CRUD opérations with express.js & phpMyAdmin",
-        image:"/images/projects/libere-toi-back.png",
-        tag:["All","Backend"],
-        gitUrl:"/",
+        title:"SHENZHEN LK LOGISTICS",
+        description:"Site web where you can make command of their products",
+        image:"/images/projects/SHENZHEN.png",
+        tag:["All","Web"],
+        gitUrl:"https://github.com/Iaiky/SHenZHEN-Front.git",
         previewUrl:"/"
     },
     {
         id:5,
+        title:"Shenzhen LK logistics backend server",
+        description:"Authentication and CRUD opérations with express.js & phpMyAdmin",
+        image:"/images/projects/libere-toi-back.png",
+        tag:["All","Backend"],
+        gitUrl:"https://github.com/Iaiky/SHENZHEN-api.git",
+        previewUrl:"/"
+    },
+    {
+        id:6,
         title:"E-fandray",
         description:"Messages Layout Template",
         image:"/images/projects/E-fandray.png",
         tag:["All","Web"],
-        gitUrl:"/",
+        gitUrl:"https://github.com/Iaiky/react_E-fandray.git",
         previewUrl:"/"
     }
 ];

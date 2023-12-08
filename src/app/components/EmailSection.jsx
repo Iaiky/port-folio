@@ -4,6 +4,7 @@ import GithubIcon from "../../../public/github-icon.svg"
 import LinkedinIcon from "../../../public/linkedin-icon.svg"
 import Link from 'next/link'
 import Image from 'next/image'
+import { PhoneIcon, EnvelopeIcon  } from "@heroicons/react/20/solid";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -41,7 +42,7 @@ const EmailSection = () => {
 
 
   return (
-    <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative'>
+    <section id="contact" className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative'>
       <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2'></div>
       <div className='z-10'>
         <h5 className='text-xl font-bold text-white my-2'>Let&rsquo;s connect.</h5>
@@ -51,11 +52,21 @@ const EmailSection = () => {
           Whether you have a question or just want to say hi, I&rsquo;ll try my best
           to get back to you.
         </p>
+        <div className='text-white m-4 max-w-md flex flex-row gap-7'>
+          <div className=' flex flex-row gap-2'>
+            <EnvelopeIcon className='h-8 w-8 ' />
+            <p>Iaikitiananaej@gmail.com</p>
+          </div>
+          <div className='flex flex-row gap-2'>
+            <PhoneIcon className='h-8 w-8 '/>
+            <p>+261 34 08 779 72</p>
+          </div>
+        </div>
         <div className='socials flex flex-row gap-2'>
-          <Link href="github.com">
+          <Link href="https://github.com/Iaiky">
             <Image src={GithubIcon} alt="Github Icon"/>
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/iaikitiana-jean-rakotoarinivo-9b0169234">
             <Image src={LinkedinIcon} alt='Linkedin Icon'/>
           </Link>
         </div>
