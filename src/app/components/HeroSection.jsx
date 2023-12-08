@@ -3,6 +3,8 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
+import { useRouter } from 'next/navigation'
+
 
 const HeroSectioin = () => {
     const handleDownload = () => {
@@ -16,6 +18,7 @@ const HeroSectioin = () => {
         document.body.removeChild(link);
       };
 
+      const router = useRouter()
 
   return (
     <section className='lg:py-4'>
@@ -51,7 +54,10 @@ const HeroSectioin = () => {
                 My skill set extends to the backend with Node.js, and I am well-versed in utilizing GitHub for version control.
                 </p>
                 <div>
-                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-400 to bg-secondary-600 hover:bg-slate-200 text-white'>
+                    <button 
+                        onClick={() => router.push('#contact')}
+                        className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-400 to bg-secondary-600 hover:bg-slate-200 text-white'
+                    >
                         Hire me
                     </button>
                     <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-400 to bg-secondary-600 hover:bg-slate-800 text-white mt-3'>
