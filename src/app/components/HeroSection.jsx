@@ -22,7 +22,7 @@ const HeroSectioin = () => {
 
   return (
     <section className='lg:py-4'>
-        <div className='grid grid-cols-1 sm:grid-cols-12'>
+        <div className='grid grid-cols-1 sm:grid-cols-12 gap-y-5'>
             <motion.div 
                 initial= {{ opacity: 0, scale: 0.5 }}
                 animate= {{ opacity: 1, scale: 1 }}
@@ -76,7 +76,7 @@ const HeroSectioin = () => {
                 transition={{ duration: 0.5 }}
                 className='col-span-4 place-self-center mt-4 lg:mt-0'
             >
-                <div className='rounded-lg w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
+                <div className='rounded-lg w-[150px] h-[150px] lg:w-[400px] lg:h-[400px] sm:w-[200px] sm:h-[200px]  relative '>
                     <Image 
                     src='/images/naej.jpg'
                     alt='hero image'
