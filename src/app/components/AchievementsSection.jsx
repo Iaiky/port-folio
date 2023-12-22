@@ -19,11 +19,7 @@ const achievementsList = [
       metric: "Years",
       value: "4",
       postfix: "+"
-    },
-    {
-      metric: "Awards",
-      value: "2"
-    },
+    }
   ];
 
 const AchievementsSection = () => {

@@ -28,16 +28,7 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Institut Supérieur Polytechnique de Madagascar (ISPM)</li>
-            </ul>
-        )
-    },
-    {
-        title: "Certifications",
-        id: "certifications",
-        content: (
-            <ul className='list-disc pl-2'>
-                <li>Licence, Informatique</li>
+                <li>Licence en Informatique, Institut Supérieur Polytechnique de Madagascar (ISPM)</li>
             </ul>
         )
     }
@@ -83,13 +74,6 @@ const AboutSection = () => {
                     >
                             {" "}
                             Education{" "}
-                    </TabButton>
-                    <TabButton 
-                        selectTab={() => handleTabChange("certifications")} 
-                        active={tab === "certifications"}
-                    >
-                            {" "}
-                            Certification{" "}
                     </TabButton>
                 </div>
                 <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>
