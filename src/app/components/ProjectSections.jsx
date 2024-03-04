@@ -7,6 +7,15 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
     {
         id:1,
+        title:"Honey of Madagascar",
+        description:"Site web of Honey of Madagascar (Still in progress)",
+        image:"/images/projects/Honey.PNG",
+        tag:["All","Web"],
+        gitUrl:"https://github.com/Iaiky/",
+        previewUrl:"https://ageru.mg/HoneyRemake/Accueil.html"
+    },
+    {
+        id:2,
         title:"Iaiky Portfolio",
         description:"My portfolio ",
         image:"/images/projects/my_portfolio.png",
@@ -15,7 +24,7 @@ const projectsData = [
         previewUrl:"https://port-folio-iaiky.vercel.app"
     },
     {
-        id:2,
+        id:3,
         title:"Libère toi",
         description:"Platform dedicated to online virtual assistant services  ",
         image:"/images/projects/libere-toi-net.png",
@@ -24,7 +33,7 @@ const projectsData = [
         previewUrl:"https://libere-toi.net/#/Home"
     },
     {
-        id:3,
+        id:4,
         title:"Libère toi backend server ",
         description:"Authentication and CRUD opérations with express.js & phpMyAdmin",
         image:"/images/projects/libere-toi-back.png",
@@ -33,7 +42,7 @@ const projectsData = [
         previewUrl:"/"
     },
     {
-        id:4,
+        id:5,
         title:"SHENZHEN LK LOGISTICS",
         description:"Site web where you can make command of their products",
         image:"/images/projects/SHENZHEN.png",
@@ -42,7 +51,7 @@ const projectsData = [
         previewUrl:"/"
     },
     {
-        id:5,
+        id:6,
         title:"Shenzhen LK logistics backend server",
         description:"Authentication and CRUD opérations with express.js & phpMyAdmin",
         image:"/images/projects/libere-toi-back.png",
@@ -51,7 +60,7 @@ const projectsData = [
         previewUrl:"/"
     },
     {
-        id:6,
+        id:7,
         title:"E-fandray",
         description:"Messages Layout Template",
         image:"/images/projects/E-fandray.png",
